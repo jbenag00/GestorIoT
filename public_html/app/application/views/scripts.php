@@ -95,9 +95,16 @@ client.on('message', (topic, message) => {
     var switch2 = splitted[3];
     var switch3 = splitted[4];
     var autoPanel = splitted[5];
+    var autoAlarm = splitted[6];
 
     $("#display_hum").html(hum);
     $("#display_temp").html(temp);
+
+    if(autoAlarm == "1"){
+      $("#display_autoAlarm").prop('checked', true);
+    }else{
+      $("#display_autoAlarm").prop('checked',"");
+    }
 
     if(autoPanel == "1"){
       $("#display_autoPanel").prop('checked', true);
@@ -133,6 +140,15 @@ client.on('reconnect', (error) => {
 client.on('error', (error) => {
   console.log('Connect Error:', error);
 })
+
+function autoAlarm_change(){
+  if ($('#display_autoAlarm').is(":checked"))
+  {
+    client.publish(device_topic + 'actions/ala',"1");
+  }else{
+    client.publish(device_topic + 'actions/ala',"0");
+  }
+}
 
 function autoPanel_change(){
   if ($('#display_autoPanel').is(":checked"))

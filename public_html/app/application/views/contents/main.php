@@ -44,7 +44,7 @@
       <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
         <div class="mdl-card mdl-shadow--2dp trending">
           <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text" style="margin-right: 80px">Panel</h2>     
+            <h2 class="mdl-card__title-text" style="margin-right: 50px">Panel</h2>     
             <span class="mdl-list__item-primary-content list__item-text" style="margin-right: 20px">AUTO</span>             
             <span class="mdl-list__item-secondary-content right">
               <!-- SWITCH-->
@@ -52,9 +52,18 @@
                 <input onchange="autoPanel_change()" type="checkbox" id="display_autoPanel">
                 <span class="slider round"></span>
               </label>
-
             </span>
+            <span class="mdl-list__item-primary-content list__item-text" style="margin-left: 45px; margin-right: 20px">ALARMA</span>             
+            <span class="mdl-list__item-secondary-content right">
+              <!-- SWITCH-->
+              <label class="switch">
+                <input onchange="autoAlarm_change()" type="checkbox" id="display_autoAlarm">
+                <span class="slider round"></span>
+              </label>
+            </span>
+
           </div>
+
           <div class="mdl-card__supporting-text">
             <ul class="mdl-list">
 
