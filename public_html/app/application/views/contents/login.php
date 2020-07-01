@@ -49,11 +49,11 @@ type='text/css'>
 
                     <div class="mdl-grid">
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
-                            <span class="mdl-card__title-text text-color--smooth-gray">GeoInterior APP</span>
+                            <span class="mdl-card__title-text text-color--smooth-gray">GestorIoT</span>
                         </div>
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <span class="login-name text-color--white">Iniciar Sesión</span>
-                            <span class="login-secondary-text text-color--smoke">Inserta los datos para ingresar en GeoInterior App</span>
+                            <span class="login-secondary-text text-color--smoke">Inserta los datos para ingresar en GestorIoT</span>
                         </div>
                         <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">

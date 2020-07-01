@@ -105,7 +105,7 @@
                 <span class="mdl-list__item-primary-content list__item-text">Refresco de página</span>
                 <span class="mdl-list__item-secondary-content">
 
-                  <input onchange="slider_change()" id="display_slider" class="mdl-slider mdl-js-slider slider--colored-light-blue" type="range" min="0" max="100" value="5" tabindex="0">
+                  <input onchange="slider_change()" id="display_slider" class="mdl-slider mdl-js-slider slider--colored-light-blue" type="range" min="0" max="60" value="3" tabindex="0">
 
                 </span>
               </li>

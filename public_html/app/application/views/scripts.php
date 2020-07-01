@@ -99,7 +99,6 @@ client.on('message', (topic, message) => {
     $("#display_hum").html(hum);
     $("#display_temp").html(temp);
 
-
     if(autoPanel == "1"){
       $("#display_autoPanel").prop('checked', true);
     }else{
@@ -117,16 +116,14 @@ client.on('message', (topic, message) => {
     }else{
       $("#display_sw2").prop('checked',"" );
     }
+
     if(switch3 == "1"){
       $("#display_sw3").prop('checked', true);
     }else{
       $("#display_sw3").prop('checked',"" );
     }
-
-
+    
   }
-
-
 })
 
 client.on('reconnect', (error) => {

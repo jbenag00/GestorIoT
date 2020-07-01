@@ -30,7 +30,6 @@ class Profile extends CI_Controller {
 	public function change(){
 	$user_id = $this->session->userdata('user_id');
 
-	//$numero = strip_tags($this->input->post('numero'));
 		$username = strip_tags($this->input->post('user_name'));
 	
 		$password= sha1(strip_tags($this->input->post('password')));
@@ -38,11 +37,6 @@ class Profile extends CI_Controller {
 		$email= strip_tags($this->input->post('email'));
 		
 		
-
-	//echo "<pre>";
-	//print_r($retiro_local);
-	//echo "</pre>";
-	//die();
 	$config['upload_path']          = '../images';
 	$config['allowed_types']        = 'jpg|png|jpeg';
 	$config['max_size']             = 3000000;

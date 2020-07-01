@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GeoInterior App</title>
+  <title>GestorIoT</title>
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -50,7 +50,7 @@ type='text/css'>
 
             <div class="mdl-grid">
               <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
-                <span class="mdl-card__title-text text-color--smooth-gray">GeoInterior</span>
+                <span class="mdl-card__title-text text-color--smooth-gray">GestorIoT</span>
               </div>
               <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone">
                 <span class="login-name text-color--white">Registrarse</span>
