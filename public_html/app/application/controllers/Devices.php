@@ -54,17 +54,17 @@ class Devices extends CI_Controller {
 			$_SESSION['msg_type'] = "warning";
 			$_SESSION['msg_title'] = "Warning!";
 			$_SESSION['msg_body'] = "Serial number alreade exist!";
-			$_SESSION['msg_footer'] = "https://geointerior.000webhostapp.com";
+			$_SESSION['msg_footer'] = "https://gestoriot.000webhostapp.com";
 		}elseif ($result == "success"){
 			$_SESSION['msg_type'] = "success";
 			$_SESSION['msg_title'] = "Success!";
 			$_SESSION['msg_body'] = "Device added successfully";
-			$_SESSION['msg_footer'] = "https://geointerior.000webhostapp.com";
+			$_SESSION['msg_footer'] = "https://gestoriot.000webhostapp.com";
 		}elseif($result == "fail"){
 			$_SESSION['msg_type'] = "fail";
 			$_SESSION['msg_title'] = "Fail!";
 			$_SESSION['msg_body'] = "Fail adding device";
-			$_SESSION['msg_footer'] = "https://geointerior.000webhostapp.com";
+			$_SESSION['msg_footer'] = "https://gestoriot.000webhostapp.com";
 		}
 		redirect(base_url('devices'), 'refresh');
 	}

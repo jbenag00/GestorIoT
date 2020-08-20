@@ -77,9 +77,9 @@ $db['default']['options'] = array(PDO::ATTR_TIMEOUT => 5000);
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'id11626287_geointerior',
-	'password' => 'javier00',
-	'database' => 'id11626287_geointerior',
+	'username' => 'id14659392_localhost',
+	'password' => 'C-$Az+$K9n#8zRNn', //javier00
+	'database' => 'id14659392_gestoriot',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
