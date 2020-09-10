@@ -11,7 +11,7 @@
                               <h5 class="mdl-card__title-text text-color--white">Perfil de usuario</h5>
                           </div>
                           <div class="mdl-card__supporting-text">
-                                <form enctype="multipart/form-data" class="" action="https://gestoriot.000webhostapp.com/app/profile/change" method="post">
+                                <form enctype="multipart/form-data" class="" action="http://gestoriot.000webhostapp.com/app/profile/change" method="post">
                                   <div class="mdl-grid">
                                           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-size">
                                               <input class="mdl-textfield__input" type="text" name="user_name" value="<?php echo $_SESSION['user_name']; ?>">

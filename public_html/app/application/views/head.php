@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html lang="es">
 <head>
-    <link rel="icon" type="image/png" href="https://gestoriot.000webhostapp.com/images/IoT.PNG">
+    <link rel="icon" type="image/png" href="http://gestoriot.000webhostapp.com/images/IoT.PNG">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
