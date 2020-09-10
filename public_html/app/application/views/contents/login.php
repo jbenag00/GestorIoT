@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" type="image/png" href="http://gestoriot.000webhostapp.com/images/IoT.PNG">
+<link rel="icon" type="image/png" href="http://gestoriot.com/images/IoT.PNG">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

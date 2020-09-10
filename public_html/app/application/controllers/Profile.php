@@ -49,7 +49,7 @@ class Profile extends CI_Controller {
 
 	$file_name1 = $_FILES['image']['name'];
 
-	$file_name1 = "http://gestoriot.000webhostapp.com/images/".$file_name1;
+	$file_name1 = "http://gestoriot.com/images/".$file_name1;
 	$upload_data =  $this->upload->do_upload('image');
 
 
